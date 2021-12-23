@@ -7,6 +7,7 @@
 * **E-mail:** sh.nat.vlad@gmail.com
 * **Telegram:** @AkulichNV
 * **GitHub:** [@AkulichNV](https://github.com/AkulichNV)
+* **Codepen:** [Tabdetka](https://codepen.io/Tabdetka/)
 *****
 ### About Me
 Four year ago I wanted to work in EPAM. I studied CSS, HTML, JS myself on the FeeCodeCamp, but my English level was A2. 
@@ -24,10 +25,13 @@ I like create complex and useful application, because it can help many people.
 * React, React Native
 * Git, GitHub
 * Photoshop 
-* Codepen
 *****
 ### Code Example
 
+*****
+### Experience
+* Page layout in CSS and HTML for cargo transportation
+* App in React Native
 *****
 ### Education
 * St. Petersburg and Peter the Great St. Petersburg Polytechnic University
@@ -35,10 +39,6 @@ I like create complex and useful application, because it can help many people.
 * freeCodeCamp (HTML, CSS, JavaScript) (2017)
 * Udemy [The Complete React Developer Course](https://www.udemy.com/course/react-2nd-edition/) (2017)
 * [React Native Docs](https://reactnative.dev/) (2018)
-*****
-### Experience
-* Page layout in CSS and HTML for cargo transportation
-* App in React Native
 *****
 ### Languages
 * Russian - Native
