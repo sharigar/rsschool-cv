@@ -1,0 +1,229 @@
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    margin: auto;
+}
+li, p, span {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
+}
+body{
+    max-width: 1024px;
+    min-height: 768px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(122,122,122,0.5);
+    background-color: #fbfcfa;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    position: relative;
+    flex-wrap: wrap;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+.background-header { 
+    background-color: #f6ecd7;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    z-index: -1;
+    position: absolute; 
+    right: 0;
+    left: 50px
+} 
+.border-article {
+    position:absolute;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    left: 50%;
+    right: 0;
+    top: 25px;
+    bottom: 0;
+}
+.photo-container {
+    width: 50%;
+    height: 300px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+} 
+.photo {
+    width: 300px;
+}
+.name {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+main {
+    display: flex;
+}
+.left-main {
+    width: 50%;
+    padding: 50px; 
+}
+.right-main {
+    width: 50%;
+    padding: 50px;
+}
+.skills {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.skills>p {
+    margin-top: 0;
+}
+.five-circles {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.circle-full {
+    width: 20px;
+    height: 20px;
+    background: black;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+    margin-left: 10px;
+}
+.circle-empty {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+    margin-left: 10px;
+}
+.languages {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.russian>p {
+    margin-left: 20px;
+}
+.russian-in>p {
+    margin-left: 10px;
+} 
+.english-in>p {
+    margin-left: 25px;
+}
+.russian {
+    /* border: 1px solid black; */
+    
+}
+.english {
+    /* border: 1px solid black; */
+}
+.russian-out {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    background: green;
+}
+.russian-in {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    -moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35spx;
+    background: white;
+}
+.english-out {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    /* background: white; */
+}
+.half-circle {
+    width: 100px;
+    height: 50px;
+    border: 1px solid orange;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: orange;
+    /* display: flex;
+    justify-content: center;
+    align-content: flex-start; */
+}
+.english-in {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    -moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35spx;
+    background: white;
+    position: absolute;
+    align-self: center;
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.img-contacts {
+    height: 25px;
+    margin-right: 10px;
+}
+/* .contacts-mail {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.img-mail {
+    height: 25px;
+    margin-right: 10px;
+}
+.contacts-git {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.img-git {
+    height: 25px;
+    margin-right: 10px;
+}
+.contacts-codepen {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.img-codepen {
+    height: 25px;
+    margin-right: 10px;
+} */
