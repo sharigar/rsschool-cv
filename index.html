@@ -15,9 +15,9 @@
     <header>
         <div class="background-header"></div>
             
-            <section class="photo-container">
+            <div class="photo-container">
                 <img class="photo" src="images/photo.jpg" alt="My photo">
-            </section>
+            </div>
             <section class="name">
                 <h1>Natalia <br />Akulich</h1>
                 <h2>Junior Frontend Developer</h2>
@@ -25,7 +25,7 @@
         
     </header>
     <main>
-        <section class="left-main">
+        <div class="left-main">
             <article class="education">
                 <h2>Education</h2>
                 <ul>
@@ -143,8 +143,8 @@
                     <p><b>Codepen: </b><a href="https://codepen.io/Tabdetka">Tabdetka</a></p>
                 </div>
             </article>
-        </section>
-        <section class="right-main">
+        </div>
+        <div class="right-main">
             <article class="about">
                 <h2>About me</h2>
                 <p>Four year ago I wanted to work in EPAM. I studied CSS, HTML, JS myself on the FeeCodeCamp, but my English level was A2. Then I worked in the small company, where I learned React+Redux and React Native myself and created app for cargo transportation in React Native.</p> 
@@ -164,7 +164,7 @@
                 <p><i>Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number. <b>Example:</b></i></p>
                 <p><code>createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"</code></p>
                 <p><i>The returned format must be correct in order to complete this challenge. Don't forget the space after the closing parentheses!</i></p>
-                <p><pre>function createPhoneNumber(numbers){ <br />
+                <pre>function createPhoneNumber(numbers){ <br />
     let a = "";<br />
     let b = "";<br />
     let c = "";<br />
@@ -172,12 +172,9 @@
     b = numbers.splice(0, 3).join('');<br />
     c = numbers.join('');<br />
     return "(" + a + ")" + " " + b + "-" + c;<br />
-}</pre></p>
+}</pre> 
             </article>
-        </section>
+        </div>
     </main>
-    <footer>
-        
-    </footer>
 </body>
 </html>
