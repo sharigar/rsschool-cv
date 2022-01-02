@@ -10,6 +10,14 @@ li, p, span {
     font-family: 'DM Sans', sans-serif;
     line-height: 1.5;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: orange; 
+}
 body{
     max-width: 1024px;
     min-height: 768px;
@@ -33,7 +41,7 @@ header {
     height: 300px;
     margin-top: 50px;
     margin-bottom: 50px;
-    z-index: -1;
+    z-index: -2;
     position: absolute; 
     right: 0;
     left: 50px
@@ -46,6 +54,7 @@ header {
     right: 0;
     top: 25px;
     bottom: 0;
+    z-index: -1;
 }
 .photo-container {
     width: 50%;
@@ -68,11 +77,11 @@ main {
 }
 .left-main {
     width: 50%;
-    padding: 50px; 
+    padding: 50px 50px 0 50px; 
 }
 .right-main {
     width: 50%;
-    padding: 50px;
+    padding: 50px 50px 0 50px;
 }
 .skills {
     display: flex;
@@ -88,7 +97,6 @@ main {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    /* border: 1px solid black; */
 }
 .circle-full {
     width: 20px;
@@ -110,7 +118,6 @@ main {
 }
 .languages {
     display: flex;
-    /* border: 1px solid black; */
     justify-content: space-around;
     margin-bottom: 20px;
 }
@@ -122,13 +129,6 @@ main {
 } 
 .english-in>p {
     margin-left: 25px;
-}
-.russian {
-    /* border: 1px solid black; */
-    
-}
-.english {
-    /* border: 1px solid black; */
 }
 .russian-out {
     display: flex;
@@ -163,7 +163,6 @@ main {
     -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-    /* background: white; */
 }
 .half-circle {
     width: 100px;
@@ -171,9 +170,6 @@ main {
     border: 1px solid orange;
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
     background: orange;
-    /* display: flex;
-    justify-content: center;
-    align-content: flex-start; */
 }
 .english-in {
     width: 70px;
@@ -197,33 +193,20 @@ main {
     height: 25px;
     margin-right: 10px;
 }
-/* .contacts-mail {
+footer {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-content: center;
+    justify-content: space-between;
     align-items: center;
+    background-color: #f6ecd7;
+    
 }
-.img-mail {
-    height: 25px;
-    margin-right: 10px;
+.git-footer {
+    margin-left: 50px;
 }
-.contacts-git {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
+.img-footer {
+    height: 40px;
+    width: 107.7px;
+    margin-right: 50px;
 }
-.img-git {
-    height: 25px;
-    margin-right: 10px;
-}
-.contacts-codepen {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-}
-.img-codepen {
-    height: 25px;
-    margin-right: 10px;
-} */
