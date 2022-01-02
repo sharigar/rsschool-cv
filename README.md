@@ -1,2 +1,2 @@
-# [rsschool-cv-md](https://AkulichNV.github.io/rsschool-cv/cv)
-# [rsschool-cv](https://AkulichNV.github.io/rsschool-cv/)
+# [rsschool-cv-md](https://sharigar.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://sharigar.github.io/rsschool-cv/)
